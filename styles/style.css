@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+*{
+   font-family: 'Source Code Pro', monospace;
+}
+body {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(119, 64, 0);
+}
+main {
+   padding: 20px;
+   max-width: 400px;
+   border-radius: 10px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgba(222, 184, 135, 0.829);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+}
+
+h1 {
+   font-weight: bolder;
+}
+
+input {
+   background-color: rgba(0, 0, 0, 0.356);
+   width: 75px;
+   color: aliceblue;
+   text-align: center;
+   font-size: larger;
+   height: 70px;
+   box-sizing: border-box;
+   border-radius: 40px;
+   border: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#form {
+   max-width: 350px;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+   background-color: rgba(0, 0, 0, 0.301);
+   border-radius: 40px;
+   margin-bottom: 10px;
+}
+#selector {
+   border: none;
+   height: 40px;
+   background-color: rgba(0, 0, 0, 0.507);
+   color: aliceblue;
+   border-radius: 40px;
+}
+.element {
+   margin: 0 5px;
+   text-align: center;
+}
+button {
+   background-color: green;
+   color: white;
+   border: none;
+   width: 100px;
+   height: 60px;
+   font-size: medium;
+   box-sizing: border-box;
+   border-radius: 40px;
+}
+
+button:hover {
+   cursor: pointer;
+   background-color: rgb(0, 78, 0);
+}
